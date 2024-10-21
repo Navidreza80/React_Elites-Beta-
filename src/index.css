@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: DannaThin;
+    src: url(./assets/Fonts/dana-fanum-thin.ttf);
+  }
+  @font-face {
+    font-family: DannaExtraLight;
+    src: url(./assets/Fonts/dana-fanum-extralight.ttf);
+  }
+  @font-face {
+    font-family: DannaLight;
+    src: url(./assets/Fonts/dana-fanum-light.ttf);
+  }
+  @font-face {
+    font-family: DannaNormal;
+    src: url(./assets/Fonts/dana-fanum-regular.ttf);
+  }
+  @font-face {
+    font-family: DannaMedium;
+    src: url(./assets/Fonts/dana-fanum-medium.ttf);
+  }
+  @font-face {
+    font-family: DannaDemiBold;
+    src: url(./assets/Fonts/dana-fanum-demibold.ttf);
+  }
+  @font-face {
+    font-family: DannaBold;
+    src: url(./assets/Fonts/dana-fanum-bold.ttf);
+  }
+  @font-face {
+    font-family: DannaExtraBold;
+    src: url(./assets/Fonts/dana-fanum-extrabold.ttf);
+  }
+  @font-face {
+    font-family: IranYekan;
+    src: url(./assets/Fonts/iranyekanwebbold.ttf);
+  }
+}
+
+:root {
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #FCFCFC;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*
+[data-theme="dark"] {
+  background: #0C134F !important;
+  color: #D4ADFC !important;
+  border-color: #5C469C !important;
+}
+[data-theme="darkNoBG"] {
+  color: #D4ADFC !important;
+  border-color: #5C469C !important;
+}
+[data-theme="darkSmall"] {
+  background: #1D267D !important;
+  color: #D4ADFC !important;
+  border-color: #5C469C !important;
+}
+*/
+
+
+/* [data-theme="dark"] {
+  background: #202020 !important;
+  color: #ffffff !important;
+  border-color: #7b7b7b !important;
+}
+[data-theme="darkNoBG"] {
+  color: #ffffff !important;
+  border-color: #7b7b7b !important;
+}
+[data-theme="darkSmall"] {
+  background: #808080 !important;
+  color: #000000 !important;
+  border-color: #000000 !important;
+} */
+
+[data-theme="dark"] {
+  background: #202020 !important;
+  color: #14FFEC !important;
+  border-color: #0D7377 !important;
+}
+[data-theme="darkNoBG"] {
+  color: #14FFEC !important;
+  border-color: #0D7377 !important;
+}
+[data-theme="darkSmall"] {
+  background: #323232 !important;
+  color: #14FFEC !important;
+  border-color: #0D7377 !important;
+}
+[data-theme="darkOrLight"] {
+  background:white url("https://img.icons8.com/?size=100&id=H3mmKEsuafpa&format=png&color=000000") 50% 50% no-repeat;
+  background-size: 60%;
+}
+[data-theme="notification"] {
+  background: url("https://img.icons8.com/?size=100&id=eMfeVHKyTnkc&format=png&color=FFFFFF") 50% 50% no-repeat;
+  background-size: 60%;
+}
+[data-theme="instagram"] {
+
+}
+[data-theme="telegram"] {
+
+}
+[data-theme="youtube"] {
+
+}
+[data-theme="twitter"] {
+
+}
+
